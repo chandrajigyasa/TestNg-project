@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="groupsTest">
+  <groups>
+    <run>
+      <include name="smoke"/>
+    </run>
+  </groups>  
+    <classes>
+      <class name="TestGroups.TestGroup1"/>
+      <class name="TestGroups.TestGroup2"/>
+    </classes>
+  </test> <!-- groupsTest -->
+</suite> <!-- Suite -->
